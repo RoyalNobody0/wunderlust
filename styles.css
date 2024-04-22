@@ -230,17 +230,11 @@ h1{
     z-index: 1;  
     background-color: var(--yellow);
     padding: 1rem;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-     -ms-user-select: none;
-         user-select: none;
   }
   
   #menu-toggle a {
     text-decoration: none;
     color: #232323;
-    -webkit-transition: color 0.3s ease;
-    -o-transition: color 0.3s ease;
     transition: color 0.3s ease;
   }
   
@@ -255,9 +249,8 @@ h1{
     right: -5px;  
     padding: 0;
     cursor: pointer;  
-    opacity: 0; /* hide this */
-    z-index: 2; /* and place it over the hamburger */  
-    -webkit-touch-callout: none;
+    opacity: 0; 
+    z-index: 2; 
   }
   
   #menu-toggle label {
@@ -271,10 +264,7 @@ h1{
     margin-top: -100px;
     padding-top: 100px;
     list-style-type: none;
-    /* Hide the menu off-screen to the left */
     right: 100%;
-    -webkit-transition: right 0.3s ease;
-    -o-transition: right 0.3s ease;
     transition: right 0.3s ease; 
     overflow: hidden;
   }
